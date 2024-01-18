@@ -34,8 +34,6 @@ app.post('/recipes', async (req, res) => {
       title: req.body.title,
       instructions: req.body.instructions,
       level: req.body.level,
-      cuisine: req.body.cuisine,
-      dishType: req.body.dishType,
       ingredients: req.body.ingredients,
       image: req.body.image,
       duration: req.body.duration, // Fix here
